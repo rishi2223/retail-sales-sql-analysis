@@ -24,14 +24,6 @@ SELECT
 FROM retail_sales;
 
 ---Data cleaning
-SELECT * FROM retail_sales
-WHERE transactions_id IS NULL;
-
-SELECT * FROM retail_sales
-WHERE sale_date IS NULL;
-
-SELECT * FROM retail_sales
-WHERE sale_time IS NULL;
 
 SELECT * FROM retail_sales
 	WHERE transactions_id IS NULL
